@@ -2,6 +2,8 @@
 
 # This is for downloading from http://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_hd.pl?dir=%2Fgfs.2014120300%2Fmaster
 # In this example, the (initial) date/time chosen is 2014120300 (as the satarting point for the forecasting).
+#
+# Note that you need 'ncl' ; at cartesius you can load the ncl module by typing: module load ncl
 
 for h in {00..99..3}; 
 do
