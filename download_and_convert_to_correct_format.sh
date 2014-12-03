@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # This is for downloading from http://nomads.ncep.noaa.gov/cgi-bin/filter_gfs_hd.pl?dir=%2Fgfs.2014120300%2Fmaster
+# In this example, the (initial) date/time chosen is 2014120300 (as the satarting point for the forecasting).
 
 for h in {00..99..3}; 
 do
