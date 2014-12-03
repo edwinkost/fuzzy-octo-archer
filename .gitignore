@@ -1,3 +1,7 @@
+# also ignore netcdf and pcraster map files
+*.nc
+*.map
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
